@@ -2,6 +2,7 @@ tap "dart-lang/dart"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -17,8 +18,6 @@ brew "dnsmasq", restart_service: true
 brew "docker"
 brew "docker-compose"
 brew "doctl"
-brew "node"
-brew "ds"
 brew "ffmpeg"
 brew "git-crypt"
 brew "gnupg"
@@ -31,6 +30,7 @@ brew "mariadb", restart_service: true
 brew "mas"
 brew "mkcert"
 brew "nginx", restart_service: true
+brew "node"
 brew "nss"
 brew "nvm"
 brew "php", restart_service: true
@@ -70,6 +70,7 @@ cask "dash"
 cask "desktop-curtain"
 cask "docker"
 cask "dropbox"
+cask "etrecheckpro"
 cask "fantastical"
 cask "farrago"
 cask "firefox"
@@ -94,12 +95,10 @@ cask "iterm2"
 cask "kaleidoscope"
 cask "kap"
 cask "keybase"
-cask "kindle"
-cask "kindle-previewer"
 cask "launchbar"
 cask "lingo"
-cask "local-by-flywheel"
 cask "loopback"
+cask "luna-display"
 cask "macupdater"
 cask "marked"
 cask "monodraw"
@@ -133,7 +132,6 @@ cask "superduper"
 cask "tableflip"
 cask "textmate"
 cask "the-unarchiver"
-cask "toggl"
 cask "transmission"
 cask "transmit"
 cask "tunnelbear"
@@ -144,7 +142,6 @@ cask "vidyo"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
-cask "xquartz"
 cask "zoomus"
 cask "zotero"
 mas "1Blocker", id: 1107421413
@@ -158,7 +155,7 @@ mas "Gestimer", id: 990588172
 mas "GIF Brewery 3", id: 1081413713
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "MacFamilyTree 7", id: 572280828
+mas "MacFamilyTree 9", id: 1458866808
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
