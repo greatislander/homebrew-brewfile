@@ -61,7 +61,6 @@ cask "cardhop"
 cask "coda"
 cask "coderunner"
 cask "dash"
-cask "desktop-curtain"
 cask "docker"
 cask "dropbox"
 cask "etrecheckpro"
@@ -81,7 +80,6 @@ cask "http-toolkit"
 cask "iina"
 cask "imageoptim"
 cask "imazing"
-cask "inkscape"
 cask "istat-menus"
 cask "istumbler"
 cask "iterm2"
@@ -95,7 +93,6 @@ cask "luna-display"
 cask "macupdater"
 cask "marked"
 cask "monodraw"
-cask "moom"
 cask "netnewswire"
 cask "nextcloud"
 cask "ngrok"
@@ -130,7 +127,6 @@ cask "transmit"
 cask "tunnelbear"
 cask "vagrant"
 cask "vagrant-manager"
-cask "versions"
 cask "vidyo"
 cask "virtualbox"
 cask "visual-studio-code"
@@ -148,6 +144,7 @@ mas "Gestimer", id: 990588172
 mas "GIF Brewery 3", id: 1081413713
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "MacFamilyTree 7", id: 572280828
 mas "MacFamilyTree 9", id: 1458866808
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
