@@ -16,7 +16,7 @@ brew "certbot"
 brew "circleci"
 brew "composer"
 brew "dnsmasq", restart_service: true
-brew "docker"
+brew "docker", link: false
 brew "docker-compose"
 brew "doctl"
 brew "ffmpeg"
@@ -29,8 +29,9 @@ brew "lftp"
 brew "mariadb", restart_service: true
 brew "mas"
 brew "mkcert"
-brew "nginx", restart_service: true
 brew "node"
+brew "netlify-cli"
+brew "nginx", restart_service: true
 brew "nss"
 brew "nvm"
 brew "php", restart_service: true
@@ -40,6 +41,7 @@ brew "terraform"
 brew "tmux"
 brew "trash-cli"
 brew "travis"
+brew "tree"
 brew "weechat"
 brew "wget"
 brew "wp-cli"
@@ -111,7 +113,6 @@ cask "loopback"
 cask "luna-display"
 cask "macupdater"
 cask "marked"
-cask "microsoft-edge-beta"
 cask "monodraw"
 cask "netnewswire"
 cask "nextcloud"
@@ -148,7 +149,6 @@ cask "tunnelbear"
 cask "typora"
 cask "vagrant"
 cask "vagrant-manager"
-cask "vidyo"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
@@ -159,7 +159,9 @@ mas "bookmarker for pinboard", id: 1451400394
 mas "Capo", id: 696977615
 mas "DaisyDisk", id: 411643860
 mas "Deliveries", id: 924726344
+mas "Downlink", id: 1454269192
 mas "Final Cut Pro", id: 424389933
+mas "Front and Center", id: 1493996622
 mas "GarageBand", id: 682658836
 mas "Gestimer", id: 990588172
 mas "GIF Brewery 3", id: 1081413713
@@ -168,11 +170,13 @@ mas "Keynote", id: 409183694
 mas "Linea Link", id: 1233368267
 mas "MacFamilyTree 9", id: 1458866808
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
 mas "Name Mangler", id: 603637384
+mas "Next Meeting", id: 1017470484
 mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
